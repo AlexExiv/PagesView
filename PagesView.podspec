@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/AlexExiv/PagesView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/AlexExiv/PagesView.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
