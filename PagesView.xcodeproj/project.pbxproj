@@ -50,12 +50,20 @@
 		FB30B9DC215E6BA10013F6E8 /* PagesView */ = {
 			isa = PBXGroup;
 			children = (
-				FB30B9DD215E6BA10013F6E8 /* PagesView.h */,
-				FB30B9E6215E6C0A0013F6E8 /* AAPagesCollectionView.h */,
-				FB30B9E5215E6C0A0013F6E8 /* AAPagesCollectionView.m */,
+				FB30B9EA215E70D70013F6E8 /* Classes */,
 				FB30B9DE215E6BA10013F6E8 /* Info.plist */,
 			);
 			path = PagesView;
+			sourceTree = "<group>";
+		};
+		FB30B9EA215E70D70013F6E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB30B9DD215E6BA10013F6E8 /* PagesView.h */,
+				FB30B9E6215E6C0A0013F6E8 /* AAPagesCollectionView.h */,
+				FB30B9E5215E6C0A0013F6E8 /* AAPagesCollectionView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
