@@ -19,6 +19,9 @@ typedef NS_ENUM( NSInteger, EFOneStepType )
 @protocol AAPagesCollectionViewDelegate <NSObject>
     
 -(void) PagesCollectionView :(AAPagesCollectionView *)lpCollectionView didChangePage :(NSInteger)iPageNum;
+
+@optional
+-(void) PagesCollectionView :(AAPagesCollectionView *)lpCollectionView didSelectPage :(NSInteger)iPageNum;
     
 @end
 

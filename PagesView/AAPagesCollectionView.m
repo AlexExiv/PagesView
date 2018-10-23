@@ -274,6 +274,12 @@ return;
     }
 }
 
+-(void) collectionView :(UICollectionView *)collectionView didSelectItemAtIndexPath :(NSIndexPath *)indexPath
+{
+    if( [lpDelegate respondsToSelector :@selector( PagesCollectionView:didSelectPage: )] )
+        [lpDelegate PagesCollectionView :self didSelectPage :indexPath.item];
+}
+
 #pragma mark - Properties
 
 -(void) setLpType :(NSString *)lpType
